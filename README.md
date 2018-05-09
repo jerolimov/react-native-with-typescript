@@ -22,3 +22,11 @@ The setup introduction is a shorter version of the official
     *   by running `yarn tsc --init --pretty --jsx react`
     *   and enabling `allowSyntheticDefaultImports`
 *   Add `.jest` to `.gitignore`
+
+## Prettier
+
+*   Add dependency
+    *   With npm: `npm install --save-dev prettier`
+    *   Alternative with yarn: `yarn add --dev prettier`
+*   Add a prettier configuration
+    * For example a [.prettierrc.js](.prettierrc.js)

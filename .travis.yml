@@ -17,6 +17,7 @@ matrix:
       script:
         - yarn test
         - yarn lint
+        - yarn prettier-check
 
     - language: android
       jdk: oraclejdk8
