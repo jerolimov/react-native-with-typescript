@@ -15,7 +15,7 @@ matrix:
       node_js:
         - stable
       script:
-        - ls
+        - yarn test
 
     - language: android
       jdk: oraclejdk8
