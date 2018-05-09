@@ -16,6 +16,7 @@ matrix:
         - stable
       script:
         - yarn test
+        - yarn lint
 
     - language: android
       jdk: oraclejdk8
